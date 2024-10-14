@@ -1,0 +1,30 @@
+{
+  "name": "commercelayer-sanity-commercetools-connector",
+  "version": "1.0.0",
+  "description": "A commercetools connect application integrating historical CRON scheduled product syncs with sanity + commercelayer datasets.",
+  "main": "index.js",
+  "scripts": {
+    "create-connect-app": "create-connect-app $@"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/portchris/commercetools-sanity-commercelayer-connector.git"
+  },
+  "keywords": [
+    "commercetools",
+    "connect",
+    "sanity",
+    "commercelayer",
+    "dataset",
+    "integration"
+  ],
+  "author": "Chris Rogers",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/portchris/commercetools-sanity-commercelayer-connector/issues"
+  },
+  "homepage": "https://github.com/portchris/commercetools-sanity-commercelayer-connector#readme",
+  "devDependencies": {
+    "@commercetools-connect/create-connect-app": "^0.4.0"
+  }
+}
